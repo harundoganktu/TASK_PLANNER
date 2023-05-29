@@ -111,7 +111,7 @@ class MainWindow(QMainWindow):
 
     def on_combobox_activated(self, text):
         self.comboBox = text
-        print(self.comboBox)
+       
 
     def time(self):
         self.zaman = self.timeEdit.text()
