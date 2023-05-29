@@ -52,7 +52,7 @@ class MainWindow(QMainWindow):
     def login(self):
         QMessageBox.information(self, "Sharepoint Information", "Do not close the browser until the file has been downloaded.")
         driver = webdriver.Chrome()
-        driver.get("https://nortel365.sharepoint.com/sites/CORENETWORKORTAKALANI/Shared Documents/General")
+        driver.get("https://nortel365.sharepoint.com/")
         email = self.lineEdit_2.text()
         şifre = self.lineEdit_3.text()
         ##############################
